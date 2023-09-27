@@ -81,7 +81,7 @@ set_absent = set(set_base_prn-set_present)
 server = smtplib.SMTP("smtp.gmail.com", 587)
 server.ehlo()
 server.starttls()
-server.login("sakharevig@gmail.com", "qnxjmqftbyutujnh")
+server.login("<your email>", "<your password>")
 
 
 for i in set_present:
